@@ -1,7 +1,6 @@
-using System;
-using MeterReadingAPI.Services;
+using MeterReadingApi.Services;
 
-namespace MeterReadingAPI;
+namespace MeterReadingApi;
 
 public static partial class ApiMapper
 {

@@ -3,7 +3,7 @@ using MeterReadingApi.Core.Models;
 using MeterReadingAPI.DTOs;
 using Microsoft.EntityFrameworkCore;
 
-namespace MeterReadingAPI.Services;
+namespace MeterReadingApi.Services;
 
 public class MeterReadingService(AppDbContext context,
     ICsvMeterReadingParser parser,

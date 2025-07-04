@@ -2,7 +2,7 @@ using CsvHelper;
 using CsvHelper.Configuration;
 using System.Globalization;
 
-namespace MeterReadingAPI.Services;
+namespace MeterReadingApi.Services;
 
 public class CsvMeterReadingParser : ICsvMeterReadingParser
 {

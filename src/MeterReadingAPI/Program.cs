@@ -1,7 +1,7 @@
 
-using MeterReadingAPI.Services;
+using MeterReadingApi.Services;
 using MeterReadingApi.Core.Infrastructure.Builders;
-using MeterReadingAPI;
+using MeterReadingApi;
 using MeterReadingApi.Core.Infrastructure.Config;
 using Microsoft.OpenApi.Models;
 using MeterReadingApi.Core.Infrastructure.Pipeline;
@@ -20,8 +20,10 @@ builder.Services.AddRateLimitServices();
 builder.Services.AddCorsServices();
 builder.Services.AddErrorHandling();
 
-// todo
-builder.Services.AddScoped<MeterReadingService>();
+// services
+builder.Services.AddScoped<ICsvMeterReadingParser, CsvMeterReadingParser>();
+builder.Services.AddScoped<IMeterReadingValidator, MeterReadingValidator>();
+builder.Services.AddTransient<MeterReadingService>();
 
 var app = builder.Build();
 

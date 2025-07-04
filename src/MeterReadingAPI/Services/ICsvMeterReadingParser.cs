@@ -1,4 +1,4 @@
-namespace MeterReadingAPI.Services;
+namespace MeterReadingApi.Services;
 
 public interface ICsvMeterReadingParser
 {

@@ -19,7 +19,7 @@ public static partial class DataBuilder
             case "SQLite":
                 {
                     services.AddDbContext<AppDbContext>(options =>
-                        options.UseInMemoryDatabase("MeterReadingApi"));
+                        options.UseInMemoryDatabase(GlobalConfiguration.ApiSettings!.DatabaseSettings.DatabaseName ?? "MeterReadingApiDb"));
                     break;
                 }
 

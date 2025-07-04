@@ -1,6 +1,6 @@
 using System.Text.RegularExpressions;
 
-namespace MeterReadingAPI.Services;
+namespace MeterReadingApi.Services;
 
 public partial class MeterReadingValidator : IMeterReadingValidator
 {

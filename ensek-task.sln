@@ -5,7 +5,7 @@ VisualStudioVersion = 17.5.2.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{827E0CD3-B72D-47B6-A68D-7590B98EB39B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeterReadingAPI", "src\MeterReadingAPI\MeterReadingAPI.csproj", "{A48DBAF8-72E0-0ABB-7D59-A8DE4F9E4087}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeterReadingApi", "src\MeterReadingApi\MeterReadingApi.csproj", "{A48DBAF8-72E0-0ABB-7D59-A8DE4F9E4087}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeterReadingApi.Core", "src\MeterReadingApi.Core\MeterReadingApi.Core.csproj", "{31C9EA57-19C7-4407-BA66-0C0A54795CC1}"
 EndProject

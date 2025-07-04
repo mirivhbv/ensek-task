@@ -1,6 +1,4 @@
-using System;
-
-namespace MeterReadingAPI.Services;
+namespace MeterReadingApi.Services;
 
 public class MeterReadingCsvDto
 {

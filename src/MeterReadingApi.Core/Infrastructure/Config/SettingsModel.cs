@@ -1,4 +1,3 @@
-using System.Diagnostics.CodeAnalysis;
 using System.Threading.RateLimiting;
 
 namespace MeterReadingApi.Core.Infrastructure.Config;
