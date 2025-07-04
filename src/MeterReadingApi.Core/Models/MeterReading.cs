@@ -9,10 +9,10 @@ public class MeterReading
 
     public int AccountId { get; set; }
     
-    public Account Account { get; set; }
+    public Account? Account { get; set; }
 
     public DateTime MeterReadingDateTime { get; set; }
 
     [RegularExpression(@"^\d{5}$")]
-    public string MeterReadValue { get; set; }
+    public required string MeterReadValue { get; set; }
 }

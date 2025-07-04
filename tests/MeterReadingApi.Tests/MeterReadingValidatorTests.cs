@@ -14,7 +14,6 @@ public class MeterReadingValidatorTests
     [InlineData("123456", false)]
     [InlineData("12a45", false)]
     [InlineData("", false)]
-    [InlineData(null, false)]
     public void IsValid_ReturnsExpectedResult(string value, bool expected)
     {
         var dto = new MeterReadingCsvDto { MeterReadValue = value ?? string.Empty };
