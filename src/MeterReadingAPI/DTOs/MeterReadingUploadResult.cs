@@ -1,4 +1,4 @@
-namespace MeterReadingAPI.DTOs;
+namespace MeterReadingApi.DTOs;
 
 public class MeterReadingUploadResult
 {

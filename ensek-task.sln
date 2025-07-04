@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeterReadingApi", "src\Mete
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeterReadingApi.Core", "src\MeterReadingApi.Core\MeterReadingApi.Core.csproj", "{31C9EA57-19C7-4407-BA66-0C0A54795CC1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{0AB3BF05-4346-4AA6-1389-037BE0695223}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeterReadingApi.Tests", "tests\MeterReadingApi.Tests\MeterReadingApi.Tests.csproj", "{37D24BD8-2673-4804-AD2A-3826649C79AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +47,18 @@ Global
 		{31C9EA57-19C7-4407-BA66-0C0A54795CC1}.Release|x64.Build.0 = Release|Any CPU
 		{31C9EA57-19C7-4407-BA66-0C0A54795CC1}.Release|x86.ActiveCfg = Release|Any CPU
 		{31C9EA57-19C7-4407-BA66-0C0A54795CC1}.Release|x86.Build.0 = Release|Any CPU
+		{37D24BD8-2673-4804-AD2A-3826649C79AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37D24BD8-2673-4804-AD2A-3826649C79AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37D24BD8-2673-4804-AD2A-3826649C79AB}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{37D24BD8-2673-4804-AD2A-3826649C79AB}.Debug|x64.Build.0 = Debug|Any CPU
+		{37D24BD8-2673-4804-AD2A-3826649C79AB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{37D24BD8-2673-4804-AD2A-3826649C79AB}.Debug|x86.Build.0 = Debug|Any CPU
+		{37D24BD8-2673-4804-AD2A-3826649C79AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37D24BD8-2673-4804-AD2A-3826649C79AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37D24BD8-2673-4804-AD2A-3826649C79AB}.Release|x64.ActiveCfg = Release|Any CPU
+		{37D24BD8-2673-4804-AD2A-3826649C79AB}.Release|x64.Build.0 = Release|Any CPU
+		{37D24BD8-2673-4804-AD2A-3826649C79AB}.Release|x86.ActiveCfg = Release|Any CPU
+		{37D24BD8-2673-4804-AD2A-3826649C79AB}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,6 +66,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{A48DBAF8-72E0-0ABB-7D59-A8DE4F9E4087} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 		{31C9EA57-19C7-4407-BA66-0C0A54795CC1} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{37D24BD8-2673-4804-AD2A-3826649C79AB} = {0AB3BF05-4346-4AA6-1389-037BE0695223}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E10AF4D1-23B7-4E25-8524-F3BBB98C9F1E}
