@@ -15,6 +15,9 @@ public class AppDbContext(DbContextOptions<AppDbContext> options)
         => optionsBuilder
             .UseSeeding((context, _) =>
             {
+                if (context.Set<Account>().Any())
+                    return;
+                    
                 context.Set<Account>().AddRange(SeedData());
                 context.SaveChanges();
             });
